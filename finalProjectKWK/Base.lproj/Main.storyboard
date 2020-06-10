@@ -10,7 +10,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="finalProjectKWK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -43,13 +42,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="W5j-4V-uSH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="A9w-9g-Lv6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="yBx-qC-Pus" customClass="SignUpViewController" customModule="finalProjectKWK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NgN-FW-j0Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -141,20 +140,20 @@
                         <outlet property="usernameUser" destination="K2z-s2-PpZ" id="dNQ-ep-C47"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A9w-9g-Lv6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="844.41964285714278"/>
         </scene>
         <!--Explore View Controller-->
         <scene sceneID="Jyf-co-G8I">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Szk-mw-Euz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Qp2-jD-DID" customClass="ExploreViewController" customModule="finalProjectKWK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nrx-8k-OoB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cp3-JM-maO">
-                                <rect key="frame" x="186" y="365" width="42" height="21"/>
+                                <rect key="frame" x="186" y="322" width="42" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -165,14 +164,17 @@
                         <viewLayoutGuide key="safeArea" id="lwE-NF-Vmf"/>
                     </view>
                     <navigationItem key="navigationItem" id="7BI-mO-bn9"/>
+                    <connections>
+                        <outlet property="userInfoDisplay" destination="cp3-JM-maO" id="83C-Lm-3rw"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Szk-mw-Euz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1019" y="844"/>
+            <point key="canvasLocation" x="1018.840579710145" y="843.75"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="Rwv-FI-Qca">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JzD-bX-hdg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="7zt-GM-hpo" customClass="LoginViewController" customModule="finalProjectKWK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T32-EP-E4D">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -220,6 +222,7 @@
                         <viewLayoutGuide key="safeArea" id="l1T-aR-aVi"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JzD-bX-hdg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1018.840579710145" y="129.91071428571428"/>
         </scene>

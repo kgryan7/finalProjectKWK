@@ -15,6 +15,12 @@ class ExploreViewController: UIViewController {
 //        
 //    }
 
+    @IBOutlet weak var userInfoDisplay: UILabel!
+    
+//    func showInfo () {
+//        print;  "your user is \(usernameUser)"
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
