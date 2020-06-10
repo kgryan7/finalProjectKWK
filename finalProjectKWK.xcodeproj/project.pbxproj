@@ -13,6 +13,11 @@
 		A68EBF82248FFE060007F602 /* finalProjectKWK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A68EBF80248FFE060007F602 /* finalProjectKWK.xcdatamodeld */; };
 		A68EBF84248FFE0F0007F602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68EBF83248FFE0F0007F602 /* Assets.xcassets */; };
 		A68EBF87248FFE0F0007F602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68EBF85248FFE0F0007F602 /* LaunchScreen.storyboard */; };
+		A6EFEF9424914F5E00DAE9CA /* coreAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EFEF9324914F5E00DAE9CA /* coreAccount.swift */; };
+		A6EFEF96249150CF00DAE9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EFEF95249150CF00DAE9CA /* ViewController.swift */; };
+		A6EFEF982491519700DAE9CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EFEF972491519700DAE9CA /* LoginViewController.swift */; };
+		A6EFEF9A249151F100DAE9CA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EFEF99249151F100DAE9CA /* SignUpViewController.swift */; };
+		A6EFEF9C2491521300DAE9CA /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EFEF9B2491521300DAE9CA /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A68EBF83248FFE0F0007F602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A68EBF86248FFE0F0007F602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A68EBF88248FFE0F0007F602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EFEF9324914F5E00DAE9CA /* coreAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreAccount.swift; sourceTree = "<group>"; };
+		A6EFEF95249150CF00DAE9CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6EFEF972491519700DAE9CA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A6EFEF99249151F100DAE9CA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A6EFEF9B2491521300DAE9CA /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				A68EBF77248FFE060007F602 /* AppDelegate.swift */,
 				A68EBF79248FFE060007F602 /* SceneDelegate.swift */,
+				A6EFEF95249150CF00DAE9CA /* ViewController.swift */,
+				A6EFEF972491519700DAE9CA /* LoginViewController.swift */,
+				A6EFEF99249151F100DAE9CA /* SignUpViewController.swift */,
+				A6EFEF9B2491521300DAE9CA /* ExploreViewController.swift */,
 				A68EBF7D248FFE060007F602 /* Main.storyboard */,
 				A68EBF83248FFE0F0007F602 /* Assets.xcassets */,
 				A68EBF85248FFE0F0007F602 /* LaunchScreen.storyboard */,
 				A68EBF88248FFE0F0007F602 /* Info.plist */,
 				A68EBF80248FFE060007F602 /* finalProjectKWK.xcdatamodeld */,
+				A6EFEF9324914F5E00DAE9CA /* coreAccount.swift */,
 			);
 			path = finalProjectKWK;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EFEF982491519700DAE9CA /* LoginViewController.swift in Sources */,
+				A6EFEF9A249151F100DAE9CA /* SignUpViewController.swift in Sources */,
+				A6EFEF96249150CF00DAE9CA /* ViewController.swift in Sources */,
 				A68EBF78248FFE060007F602 /* AppDelegate.swift in Sources */,
+				A6EFEF9C2491521300DAE9CA /* ExploreViewController.swift in Sources */,
 				A68EBF82248FFE060007F602 /* finalProjectKWK.xcdatamodeld in Sources */,
+				A6EFEF9424914F5E00DAE9CA /* coreAccount.swift in Sources */,
 				A68EBF7A248FFE060007F602 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
