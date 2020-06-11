@@ -127,7 +127,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qp2-jD-DID" kind="show" id="aaj-Up-fnp"/>
+                                    <segue destination="7HC-Eg-eTS" kind="show" id="aaj-Up-fnp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -152,10 +152,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cp3-JM-maO">
-                                <rect key="frame" x="186" y="322" width="42" height="43"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSG-k7-sj8">
+                                <rect key="frame" x="69" y="257" width="201" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" red="0.27842247489999999" green="0.46046060319999998" blue="0.5766168237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Bedroom Pop">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonOne:" destination="Qp2-jD-DID" eventType="touchUpInside" id="Vyr-Ix-GwE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a genre to explore!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cp3-JM-maO">
+                                <rect key="frame" x="90" y="80" width="235" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -165,12 +177,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="7BI-mO-bn9"/>
                     <connections>
+                        <outlet property="buttonOne" destination="XSG-k7-sj8" id="DsM-DH-aEB"/>
                         <outlet property="userInfoDisplay" destination="cp3-JM-maO" id="83C-Lm-3rw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Szk-mw-Euz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1018.840579710145" y="843.75"/>
+            <point key="canvasLocation" x="1928.985507246377" y="843.75"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="Rwv-FI-Qca">
@@ -188,7 +201,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qp2-jD-DID" kind="show" id="vC2-DC-Ozd"/>
+                                    <segue destination="7HC-Eg-eTS" kind="show" id="vC2-DC-Ozd"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JJh-7c-Sr7">
@@ -226,8 +239,27 @@
             </objects>
             <point key="canvasLocation" x="1018.840579710145" y="129.91071428571428"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OaB-RG-xvQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7HC-Eg-eTS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="O2z-Gl-Kjf"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cwQ-NN-S5F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Qp2-jD-DID" kind="relationship" relationship="rootViewController" id="pg6-dd-HAI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HG1-9I-ndw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1018.840579710145" y="843.75"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="aaj-Up-fnp"/>
+        <segue reference="vC2-DC-Ozd"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6141F992491BFA600232092 /* GenreOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6141F972491BFA500232092 /* GenreOneViewController.swift */; };
+		A6141F9A2491BFA600232092 /* GenreOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6141F982491BFA600232092 /* GenreOneViewController.xib */; };
 		A68EBF78248FFE060007F602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68EBF77248FFE060007F602 /* AppDelegate.swift */; };
 		A68EBF7A248FFE060007F602 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68EBF79248FFE060007F602 /* SceneDelegate.swift */; };
 		A68EBF7F248FFE060007F602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68EBF7D248FFE060007F602 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6141F972491BFA500232092 /* GenreOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreOneViewController.swift; sourceTree = "<group>"; };
+		A6141F982491BFA600232092 /* GenreOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenreOneViewController.xib; sourceTree = "<group>"; };
 		A68EBF74248FFE060007F602 /* finalProjectKWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProjectKWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68EBF77248FFE060007F602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68EBF79248FFE060007F602 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				A6EFEF972491519700DAE9CA /* LoginViewController.swift */,
 				A6EFEF99249151F100DAE9CA /* SignUpViewController.swift */,
 				A6EFEF9B2491521300DAE9CA /* ExploreViewController.swift */,
+				A6141F972491BFA500232092 /* GenreOneViewController.swift */,
+				A6141F982491BFA600232092 /* GenreOneViewController.xib */,
 				A68EBF7D248FFE060007F602 /* Main.storyboard */,
 				A68EBF83248FFE0F0007F602 /* Assets.xcassets */,
 				A68EBF85248FFE0F0007F602 /* LaunchScreen.storyboard */,
@@ -141,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A68EBF87248FFE0F0007F602 /* LaunchScreen.storyboard in Resources */,
+				A6141F9A2491BFA600232092 /* GenreOneViewController.xib in Resources */,
 				A68EBF84248FFE0F0007F602 /* Assets.xcassets in Resources */,
 				A68EBF7F248FFE060007F602 /* Main.storyboard in Resources */,
 			);
@@ -154,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6EFEF982491519700DAE9CA /* LoginViewController.swift in Sources */,
+				A6141F992491BFA600232092 /* GenreOneViewController.swift in Sources */,
 				A6EFEF9A249151F100DAE9CA /* SignUpViewController.swift in Sources */,
 				A6EFEF96249150CF00DAE9CA /* ViewController.swift in Sources */,
 				A68EBF78248FFE060007F602 /* AppDelegate.swift in Sources */,

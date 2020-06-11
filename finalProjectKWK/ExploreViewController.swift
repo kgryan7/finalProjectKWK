@@ -15,6 +15,13 @@ class ExploreViewController: UIViewController {
 //        
 //    }
 
+    @IBAction func buttonOne(_ sender: Any) {
+        let vc = GenreOneViewController(nibName: "GenreOneViewController", bundle: nil)
+        vc.text = "Next level blog photo booth, tousled authentic tote bag kogi"
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
     @IBOutlet weak var userInfoDisplay: UILabel!
     
 //    func showInfo () {
